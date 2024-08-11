@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <title>Tugas PWL</title>
+
+    <!-- css -->
+    <link rel='stylesheet' href='style.css' />
+
+    <!-- google font -->
+    <link rel='preconnect' href='https://fonts.googleapis.com' />
+    <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
+    <link href='https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap'
+        rel='stylesheet' />
+
+    <!-- feather icon -->
+    <script src='https://unpkg.com/feather-icons'></script>
+</head>
+
+<body>
+    <!-- navbar start -->
+    <nav class='navbar'>
+        <a href='index.html' class='navbar-logo'>Jelajah<span>in</span>.</a>
+
+        <div class='navbar-nav active'>
+            <a href='#home'>Home</a>
+            <a href='#destinasi'>Destinasi</a>
+            <a href='#profil'>Profil</a>
+        </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- hero section start -->
+    <section class='hero' id='home'>
+        <main class='content'>
+            <h1>Menikmati Alam <span>Indonesia</span></h1>
+            <p>
+            Merasakan keindahan alam yang memukau di berbagai destinasi Indonesia.
+            </p>
+            <a href='#destinasi' class='cta'>Explore</a>
+        </main>
+    </section>
+    <!-- hero section end -->
+
+
+    <!-- destinasi section start -->
+    <section id='destinasi' class='destinasi'>
+        <h2><span>Wisata</span> Gunung</h2>
+        <p>
+        Menikmati keindahan alam Gunung dengan pemandangan yang memukau dan pengalaman petualangan yang tak terlupakan.
+        </p>
+
+        <div class='row'>
+            <div class='destinasi-card'>
+                <img src='assets/gunung-bromo.jpg' alt='Gunung Bromo' class='destinasi-card-img' />
+                <div class='card-content'>
+                    <h3>Gunung Bromo</h3>
+                    <p>Nikmati pesona alam Gunung Bromo, tersembunyi di kawasan Taman Nasional Bromo Tengger Semeru.</p>
+                    <a href='bromo.html' class='btn'>Read More</a>
+                </div>
+            </div>
+
+            <div class='destinasi-card'>
+                <img src='assets/gunung-merbabu.jpg' alt='Gunung Merbabu' class='destinasi-card-img' />
+                <div class='card-content'>
+                    <h3>Gunung Merbabu</h3>
+                    <p>Jelajahi keindahan Gunung Merbabu dengan pemandangan yang menakjubkan juga udara segar.</p>
+                    <a href='merbabu.html' class='btn'>Read More</a>
+                </div>
+            </div>
+
+            <div class='destinasi-card'>
+                <img src='assets/gunung-semeru.jpg' alt='Gunung Semeru' class='destinasi-card-img' />
+                <div class='card-content'>
+                    <h3>Gunung Semeru</h3>
+                    <p>Menyambut petualangan di puncak Gunung Semeru, keindahan alam yang menawan tak terlupakan.</p>
+                    <a href='sameru.html' class='btn'>Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- destinasi section end -->
+
+    <!-- profil section start -->
+    <section id='profil' class='profil'>
+        <h2><span>Profil</span> Saya</h2>
+        <div class='user'>
+            <!-- Card -->
+            <div class='card-user'>
+                <div class='card-border'>
+                    <div class='card-perfil'>
+                        <img src='assets/user-profile.png' alt='card image' class='card-img'>
+                    </div>
+                </div>
+
+                <h3 class='card-name'>Dean Aura Nabilla</h3>
+                <span class='card-npm'>202143502268</span>
+
+                <!-- Card users -->
+                <div class='users'>
+                    <div class='users-icon'>
+                        <i data-feather='info'></i>
+                    </div>
+
+                    <div class='users-border'>
+                        <div class='users-perfil'>
+                            <img src='assets/user-profile.png' alt='card image' class='users-img'>
+                        </div>
+                    </div>
+
+                    <div class='users-data'>
+                        <h3 class='users-name'>Dean Aura Nabilla</h3>
+                        <span class='users-npm'>202143502268</span>
+                        <span class='users-location'>Universitas Indraprasta PGRI</span>
+                    </div>
+
+                    <div class='users-social'>
+                        <a href='https://www.linkedin.com/in/deanauranabilla/' target='_blank' class='users-social-link'>
+                            <span class='users-social-icon'>
+                                <i data-feather='linkedin'></i>
+                            </span>
+                        </a>
+
+                        <a href='https://www.instagram.com/deanauraaa_/' target='_blank' class='users-social-link'>
+                            <span class='users-social-icon'>
+                                <i data-feather='instagram'></i>
+                            </span>
+                        </a>
+
+                        <a href='https://github.com/deanaura' target='_blank' class='users-social-link'>
+                            <span class='users-social-icon'>
+                                <i data-feather='github'></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- profil section end -->
+
+    <!-- footer start -->
+    <footer>
+        <div class='socials'>
+            <a href='https://www.instagram.com/deanauraaa_/'><i data-feather='instagram'></i></a>
+            <a href='https://github.com/deanaura'><i data-feather='github'></i></a>
+            <a href='https://www.linkedin.com/in/deanauranabilla/'><i data-feather='linkedin'></i></a>
+        </div>
+
+        <div class='links'>
+            <a href='#home'>Home</a>
+            <a href='#destinasi'>Destinasi</a>
+            <a href='#profil'>Profil</a>
+        </div>
+
+        <div class='credit'>
+            <p>Created by <a href=''>deanaura</a>. | &copy; 2024.</p>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- feather icon -->
+    <script>
+    feather.replace();
+    </script>
+
+</body>
+
+</html>
